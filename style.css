@@ -236,6 +236,19 @@ h1 {
     text-underline-offset: 3px;
 }
 
+.contact-section .property-row:has(> a) {
+    display: flex;
+    align-items: center;
+}
+
+.contact-section .property-row:has(> a) dt {
+    flex: 0 0 118px;
+}
+
+.contact-section .property-row:has(> a) a+a {
+    margin-left: 12px;
+}
+
 .page-section {
     min-width: 0;
     margin-top: 27px;
