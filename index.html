@@ -1,267 +1,439 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
-    <title>Rohit Rajvaidya | Backend Developer</title>
-    <meta name="description"
-        content="Rohit Sushil Rajvaidya is a backend developer focused on Python, APIs, databases, and automation.">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#20252c" />
+    <meta
+      name="description"
+      content="Rohit Rajvaidya builds Python backends, API-driven products, and automation workflows. Explore his projects and experience."
+    />
+    <title>Rohit Rajvaidya | Backend developer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <aside class="sidebar">
+      <a class="identity" href="index.html" aria-label="Rohit Rajvaidya, home"
+        ><span class="identity-mark">rr<span>.</span></span
+        ><strong>Rohit Rajvaidya</strong
+        ><span>Python backend developer</span></a
+      >
 
-<body>
-    <header class="site-header">
-        <div class="site-header-inner">
-            <nav class="primary-nav" aria-label="Portfolio sections">
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#experience">Experience</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" href="#fastapi">FastAPI</a>
-                <a class="nav-link" href="#education">Education</a>
-                <a class="nav-link" href="#contact">Contact</a>
-            </nav>
+      <div class="mobile-icon-and-menu">
+        <div
+          class="mobile-contact-icons"
+          role="group"
+          aria-label="Contact links"
+        >
+          <a href="tel:+918275342635" aria-label="Call +91 8275342635">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.79a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.89.34 1.83.58 2.79.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rohit-rajvaidya/"
+            aria-label="LinkedIn profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"
+              />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/RohitRajvaidya5"
+            aria-label="GitHub profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              />
+            </svg>
+          </a>
+          <a
+            href="mailto:rajvaidyarohit25@outlook.com"
+            aria-label="Email Rohit Rajvaidya"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </a>
         </div>
-    </header>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          hidden
+        >
+          Menu <span aria-hidden="true">+</span>
+        </button>
+      </div>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#about">About &amp; experience</a>
+        <a href="index.html#contact">Contact</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="nav-contact" href="tel:+918275342635">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.79a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.89.34 1.83.58 2.79.7A2 2 0 0 1 22 16.92z"
+            />
+          </svg>
+          <span>+91 8275342635</span>
+        </a>
+        <a
+          class="nav-contact"
+          href="https://www.linkedin.com/in/rohit-rajvaidya/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"
+            />
+            <rect width="4" height="12" x="2" y="9" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a
+          class="nav-contact"
+          href="https://github.com/RohitRajvaidya5"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+            />
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <a
+          href="mailto:rajvaidyarohit25@outlook.com"
+          class="nav-contact"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect width="20" height="16" x="2" y="4" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+          <span>Email me</span>
+        </a>
+      </nav>
+    </aside>
+    <div class="workspace">
+      <header class="page-bar">
+        <span>Rohit Rajvaidya / <strong>Portfolio</strong></span
+        ><span class="bar-note">Python backend developer</span>
+      </header>
+      <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <h1 id="hero-title">Rohit<br />Rajvaidya</h1>
+            <p class="hero-lede">
+              Python developer focused on APIs and automation.
+            </p>
+            <p class="hero-detail">
+              I've worked in production support, SQL-based QA, and Python
+              automation at Capgemini. My personal projects explore Django,
+              FastAPI, PostgreSQL, and AI integrations.
+            </p>
+            <div class="actions">
+              <a class="button" href="#projects"
+                >View projects <span aria-hidden="true">&darr;</span></a
+              ><a class="inline-link" href="#contact"
+                >Contact me <span aria-hidden="true">&nearr;</span></a
+              >
+            </div>
+          </div>
+          <figure class="hero-portrait">
+            <div class="portrait-image">
+              <img
+                src="portrait.jpg"
+                alt="Rohit Rajvaidya"
+                width="480"
+                height="600"
+                fetchpriority="high"
+              />
+            </div>
+            <figcaption>Python developer / India</figcaption>
+          </figure>
+        </section>
 
-    <main class="page" id="home">
-        <header class="page-heading">
-            <img class="profile-photo" src="./photo.png" alt="Rohit Sushil Rajvaidya">
+        <section class="section" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <h2 id="projects-title">Projects</h2>
+            <p class="heading-note">Personal backend applications</p>
+          </div>
+          <article class="featured-project">
+            <div class="project-layout">
+              <div>
+                <h3>AI Job Portal</h3>
+                <p class="project-subtitle">
+                  Candidate management and AI-assisted resume screening.
+                </p>
+                <p>
+                  I built REST APIs for jobs, candidates, authentication, and
+                  resume workflows. Gemini provides resume analysis; Redis
+                  caches search queries.
+                </p>
+                <div class="tags">
+                  <span>Django REST</span><span>PostgreSQL</span
+                  ><span>Redis</span><span>Gemini</span><span>Docker</span>
+                </div>
+                <p class="project-decision">
+                  <strong>Technical decision:</strong> cache candidate search
+                  queries in Redis to reduce repeated database work.
+                </p>
+              </div>
+              <figure class="system-map">
+                <figcaption class="small-label">Conceptual workflow</figcaption>
+                <div class="flow-node">Resume + candidate</div>
+                <span class="flow-arrow" aria-hidden="true">&darr;</span>
+                <div class="flow-node accent-node">Authenticated REST API</div>
+                <span class="flow-arrow" aria-hidden="true">&darr;</span>
+                <div class="flow-split">
+                  <div class="flow-node">
+                    Gemini<br /><small>Analysis + scoring</small>
+                  </div>
+                  <div class="flow-node">
+                    PostgreSQL / Redis<br /><small>Data + cached search</small>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <details class="case-study" open>
+              <summary>
+                Implementation details <span aria-hidden="true">+</span>
+              </summary>
+              <div class="case-content">
+                <h4>My implementation</h4>
+                <p>
+                  JWT authentication, role-based access control, and request
+                  validation protect the APIs. I integrated Gemini for resume
+                  analysis and scoring, packaged the application with Docker
+                  Compose, and documented the REST APIs with Swagger/OpenAPI.
+                </p>
+                <h4>Performance measurement</h4>
+                <p>
+                  Redis caching was part of the search optimization. I have not
+                  published the benchmark setup or measurements here, so this
+                  portfolio does not claim a measured speedup.
+                </p>
+                <a
+                  class="inline-link"
+                  href="mailto:rajvaidyarohit25@outlook.com?subject=AI%20Job%20Portal"
+                  >Email me about this project &rarr;</a
+                >
+              </div>
+            </details>
+          </article>
+          <div class="project-pair">
+            <article class="compact-project">
+              <h3>Local AI Assistant</h3>
+              <p>
+                I built asynchronous FastAPI services for LLM routing,
+                conversation persistence, and memory-aware context retrieval.
+              </p>
+              <div class="tags">
+                <span>FastAPI</span><span>Ollama</span><span>PostgreSQL</span
+                ><span>asyncio</span>
+              </div>
+              <details class="case-study">
+                <summary>
+                  Implementation details <span aria-hidden="true">+</span>
+                </summary>
+                <div class="case-content">
+                  <h4>My implementation</h4>
+                  <p>
+                    A modular backend that routes LLM requests, stores
+                    conversations in PostgreSQL, and retrieves context for
+                    memory-aware conversations.
+                  </p>
+                  <h4>Technical focus</h4>
+                  <p>
+                    Asynchronous processing and concurrent execution, with
+                    reusable components that can be extended as the assistant
+                    evolves.
+                  </p>
+                  <a
+                    class="inline-link"
+                    href="mailto:rajvaidyarohit25@outlook.com?subject=Local%20AI%20Assistant"
+                    >Email me about this project &rarr;</a
+                  >
+                </div>
+              </details>
+            </article>
+            <article class="compact-project">
+              <h3>E-Commerce API</h3>
+              <p>
+                I built Django REST APIs with JWT authentication and integrated
+                Razorpay for order processing and payment status.
+              </p>
+              <div class="tags">
+                <span>Django REST</span><span>PostgreSQL</span
+                ><span>Razorpay</span><span>Docker</span>
+              </div>
+              <details class="case-study">
+                <summary>
+                  Implementation details <span aria-hidden="true">+</span>
+                </summary>
+                <div class="case-content">
+                  <h4>My implementation</h4>
+                  <p>
+                    REST APIs for user management, pagination, and filtering,
+                    plus Razorpay integration for order processing and payment
+                    status.
+                  </p>
+                  <h4>Technical focus</h4>
+                  <p>
+                    PostgreSQL schema design, indexing, and query optimization.
+                    Benchmark measurements are not published here, so no
+                    numerical performance claim is made.
+                  </p>
+                  <a
+                    class="inline-link"
+                    href="mailto:rajvaidyarohit25@outlook.com?subject=E-Commerce%20API"
+                    >Email me about this project &rarr;</a
+                  >
+                </div>
+              </details>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="about" aria-labelledby="about-title">
+          <div class="section-heading">
+            <h2 id="about-title">
+              From production support<br />to Python development.
+            </h2>
+          </div>
+          <div class="about-layout">
+            <p class="about-lede">
+              Enterprise work in automation and SQL.<br />Personal projects in
+              backend development.
+            </p>
             <div>
-                <p class="eyebrow">Backend Developer <span>·</span> Python <span>·</span> India</p>
-                <h1>Rohit Sushil Rajvaidya</h1>
-                <p class="page-subtitle">Backend development, automation, and dependable APIs.</p>
-                <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Switch to dark
-                    mode</button>
+              <p>
+                I joined Capgemini in December 2022, beginning with full-stack
+                training. I then worked in production support and SQL-based QA
+                before moving into Python automation in May 2025.
+              </p>
+              <p>
+                Alongside those roles, I learned Django and FastAPI through
+                personal projects, working on authentication, databases,
+                caching, payments, and LLM integrations.
+              </p>
             </div>
-        </header>
-
-        <section class="page-section about-section" id="about">
-            <h2>About</h2>
-            <p>I’m a Python developer with enterprise experience in automation, SQL data validation, and CI/CD. I build
-                backend projects with FastAPI and Django REST Framework, focusing on APIs, data, authentication, and
-                testing.</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-row">
+              <time>May 2025 - May 2026</time>
+              <div>
+                <h3>Python Developer</h3>
+                <p>
+                  Python automation, Oracle SQL connections, BDD feature files,
+                  GitLab CI/CD, and deployment workflows.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-row">
+              <time>Jan 2025 - May 2025</time>
+              <div>
+                <h3>QA Engineer</h3>
+                <p>
+                  AutoSys job monitoring, failure investigation, and Oracle SQL
+                  validation of data movement from raw to core tables.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-row">
+              <time>Oct 2023 - Jan 2025</time>
+              <div>
+                <h3>Production Support</h3>
+                <p>
+                  Production support using Automation Anywhere 360, while
+                  learning Python and Django independently.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-row">
+              <time>Dec 2022</time>
+              <div>
+                <h3>Joined Capgemini</h3>
+                <p>
+                  Full-stack training in Java, Spring Boot, Angular, and
+                  PostgreSQL. Built a cricket tournament ticket booking project.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="toolkit">
+            <h3>A practical toolkit</h3>
+            <dl>
+              <div>
+                <dt>Backend</dt>
+                <dd>Python / FastAPI / Django / Django REST Framework</dd>
+              </div>
+              <div>
+                <dt>Data</dt>
+                <dd>PostgreSQL / Oracle SQL / Redis / SQLAlchemy</dd>
+              </div>
+              <div>
+                <dt>Delivery &amp; quality</dt>
+                <dd>Docker / GitLab CI/CD / pytest / BDD / Alembic</dd>
+              </div>
+              <div>
+                <dt>AI integrations</dt>
+                <dd>Gemini API / Ollama / asynchronous LLM workflows</dd>
+              </div>
+            </dl>
+            <p class="muted">
+              Used across professional work, personal projects, and hands-on
+              learning; not a claim of equal expertise in every tool.
+            </p>
+          </div>
         </section>
 
-        <section class="page-section" id="experience">
-            <h2>Experience</h2>
-            <div class="timeline">
-                <article class="timeline-entry">
-                    <p class="entry-date">May 2025 – May 2026</p>
-                    <div class="entry-content">
-                        <h3>Python Developer <span>·</span> Capgemini</h3>
-                        <p class="entry-context">Python automation project</p>
-                        <ul>
-                            <li>Developed and maintained Python automation workflows and BDD feature files.</li>
-                            <li>Created SQL database connections and automated processes for project requirements.</li>
-                            <li>Worked with Oracle SQL, GitLab, CI/CD pipelines, and deployment workflows.</li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="timeline-entry">
-                    <p class="entry-date">Jan 2025 – May 2025</p>
-                    <div class="entry-content">
-                        <h3>QA Engineer <span>·</span> DMSI NG</h3>
-                        <p class="entry-context">AutoSys monitoring and data validation</p>
-                        <ul>
-                            <li>Monitored AutoSys job execution, investigated failures, and verified data flows.</li>
-                            <li>Used Oracle SQL to validate data movement from raw tables to core tables.</li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="timeline-entry">
-                    <p class="entry-date">Oct 2023 – Jan 2025</p>
-                    <div class="entry-content">
-                        <h3>Production Support <span>·</span> UBS project</h3>
-                        <p class="entry-context">Automation Anywhere 360</p>
-                        <ul>
-                            <li>Supported production activities using the Automation Anywhere 360 RPA platform.</li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="timeline-entry">
-                    <p class="entry-date">Dec 2022 · 3 months</p>
-                    <div class="entry-content">
-                        <h3>Full-Stack Developer Training <span>·</span> Capgemini</h3>
-                        <p class="entry-context">Structured training in Java, Spring Boot, Angular, PostgreSQL, Git,
-                            HTML, CSS, and JavaScript.</p>
-                        <p>Built a Cricket Tournament Ticket Booking System as a training project.</p>
-                    </div>
-                </article>
-            </div>
+        <section
+          class="contact-section"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <h2 id="contact-title">Contact me</h2>
+          <p>
+            Email me to discuss a Python backend role or ask about a project.
+          </p>
+          <a class="email-link" href="mailto:rajvaidyarohit25@outlook.com"
+            >rajvaidyarohit25@outlook.com
+            <span aria-hidden="true">&nearr;</span></a
+          >
+          <div class="copy-row">
+            <button class="copy-email" type="button" hidden>
+              Copy email address</button
+            ><span id="copy-status" role="status" aria-live="polite"></span>
+          </div>
         </section>
-
-        <section class="page-section" id="projects">
-            <h2>Selected Projects</h2>
-            <p class="section-intro">Personal backend projects exploring APIs, data, authentication, and AI
-                integrations.</p>
-            <div class="project-list">
-                <details class="project-entry">
-                    <summary class="project-heading">
-                        <span><span class="project-type">AI · Hiring</span><span class="project-title">AI Job Portal
-                                with Resume Screening</span></span>
-                        <span class="project-summary">Resume analysis, candidate scoring, and job workflows</span>
-                    </summary>
-                    <div class="project-details">
-                        <p>Built REST APIs for authentication, job and candidate management, and resume workflows.
-                            Integrated Gemini API for resume analysis and candidate scoring, with JWT authentication,
-                            role-based access control, request validation, Redis search caching, Docker Compose, and
-                            Swagger/OpenAPI documentation.</p>
-                        <p class="project-result">Approx. 65% lower average search API response time with Redis caching,
-                            as recorded in project notes.</p>
-                        <p class="tech-list">Python · Django REST Framework · PostgreSQL · Redis · Docker · JWT · Gemini
-                            API</p>
-                    </div>
-                </details>
-                <details class="project-entry">
-                    <summary class="project-heading">
-                        <span><span class="project-type">AI · Async APIs</span><span class="project-title">Local AI
-                                Assistant</span></span>
-                        <span class="project-summary">Async FastAPI services with conversation memory</span>
-                    </summary>
-                    <div class="project-details">
-                        <p>Developed asynchronous FastAPI services with dynamic LLM routing, persisted conversations,
-                            and memory-aware context retrieval. Organized backend components around PostgreSQL and
-                            asyncio for extensible AI workflows.</p>
-                        <p class="tech-list">Python · FastAPI · PostgreSQL · Ollama · asyncio · LLM integration</p>
-                    </div>
-                </details>
-                <details class="project-entry">
-                    <summary class="project-heading">
-                        <span><span class="project-type">Commerce · Payments</span><span
-                                class="project-title">E-Commerce Web Application</span></span>
-                        <span class="project-summary">REST APIs, Razorpay payments, and query optimization</span>
-                    </summary>
-                    <div class="project-details">
-                        <p>Created Django REST APIs for user management, pagination, filtering, and JWT authentication.
-                            Integrated Razorpay payment processing and optimized PostgreSQL schemas, indexes, and
-                            queries; containerized the application with Docker.</p>
-                        <p class="project-result">Approx. 70% lower query execution time after database and query
-                            optimization, as recorded in project notes.</p>
-                        <p class="tech-list">Python · Django REST Framework · PostgreSQL · Docker · JWT · Razorpay</p>
-                    </div>
-                </details>
-            </div>
-        </section>
-
-        <section class="page-section" id="skills">
-            <h2>Technical Skills</h2>
-            <div class="skill-group">
-                <h3>Languages &amp; Web</h3>
-                <div class="skill-grid">
-                    <div class="skill-tile"><i class="devicon-python-plain colored"
-                            aria-hidden="true"></i><span>Python</span></div>
-                    <div class="skill-tile"><i class="devicon-java-plain colored"
-                            aria-hidden="true"></i><span>Java</span></div>
-                    <div class="skill-tile"><i class="devicon-javascript-plain colored"
-                            aria-hidden="true"></i><span>JavaScript</span></div>
-                    <div class="skill-tile"><i class="devicon-html5-plain colored"
-                            aria-hidden="true"></i><span>HTML</span></div>
-                    <div class="skill-tile"><i class="devicon-css3-plain colored"
-                            aria-hidden="true"></i><span>CSS</span></div>
-                </div>
-            </div>
-            <div class="skill-group">
-                <h3>Frameworks</h3>
-                <div class="skill-grid">
-                    <div class="skill-tile"><i class="devicon-fastapi-plain colored"
-                            aria-hidden="true"></i><span>FastAPI</span></div>
-                    <div class="skill-tile"><i class="devicon-django-plain colored"
-                            aria-hidden="true"></i><span>Django</span></div>
-                    <div class="skill-tile"><i class="devicon-djangorest-plain colored"
-                            aria-hidden="true"></i><span>Django REST</span></div>
-                    <div class="skill-tile"><i class="devicon-spring-original colored"
-                            aria-hidden="true"></i><span>Spring Boot</span></div>
-                    <div class="skill-tile"><i class="devicon-angularjs-plain colored"
-                            aria-hidden="true"></i><span>Angular</span></div>
-                    <div class="skill-tile"><i class="devicon-sqlalchemy-plain colored"
-                            aria-hidden="true"></i><span>SQLAlchemy</span></div>
-                </div>
-            </div>
-            <div class="skill-group">
-                <h3>Databases</h3>
-                <div class="skill-grid">
-                    <div class="skill-tile"><i class="devicon-postgresql-plain colored"
-                            aria-hidden="true"></i><span>PostgreSQL</span></div>
-                    <div class="skill-tile"><i class="devicon-mysql-plain colored"
-                            aria-hidden="true"></i><span>MySQL</span></div>
-                    <div class="skill-tile"><i class="devicon-oracle-original colored"
-                            aria-hidden="true"></i><span>Oracle SQL</span></div>
-                    <div class="skill-tile"><i class="devicon-redis-plain colored"
-                            aria-hidden="true"></i><span>Redis</span></div>
-                </div>
-            </div>
-            <div class="skill-group">
-                <h3>Testing &amp; Delivery</h3>
-                <div class="skill-grid">
-                    <div class="skill-tile"><i class="devicon-pytest-plain colored"
-                            aria-hidden="true"></i><span>pytest</span></div>
-                    <div class="skill-tile"><i class="devicon-swagger-plain colored"
-                            aria-hidden="true"></i><span>Swagger / OpenAPI</span></div>
-                    <div class="skill-tile"><i class="devicon-docker-plain colored"
-                            aria-hidden="true"></i><span>Docker</span></div>
-                    <div class="skill-tile"><i class="devicon-git-plain colored" aria-hidden="true"></i><span>Git</span>
-                    </div>
-                    <div class="skill-tile"><i class="devicon-gitlab-plain colored"
-                            aria-hidden="true"></i><span>GitLab</span></div>
-                </div>
-            </div>
-
-            <br>
-            <br>
-
-            <p class="skill-notes"><strong>Also used:</strong> Pydantic, Alembic, BDD, JWT, RBAC, asyncio, CI/CD,
-                Automation Anywhere 360, AutoSys, Gemini API, Ollama, Razorpay.</p>
-        </section>
-
-        <div class="closing-grid">
-            <section class="page-section" id="education">
-                <h2>Education</h2>
-                <div class="education-entry">
-                    <h3>Marathwada Institute of Technology</h3>
-                    <dl class="properties education-properties">
-                        <div class="property-row">
-                            <dt>Degree</dt>
-                            <dd>Bachelor of Technology (B.Tech)</dd>
-                        </div>
-                        <div class="property-row">
-                            <dt>Field</dt>
-                            <dd>Mechanical Engineering</dd>
-                        </div>
-                        <div class="property-row">
-                            <dt>Period</dt>
-                            <dd>2019 – 2022</dd>
-                        </div>
-                    </dl>
-                </div>
-            </section>
-
-            <section class="page-section contact-section" id="contact">
-                <h2>Contact</h2>
-                <dl class="properties">
-                    <div class="property-row">
-                        <dt>Email</dt>
-                        <dd><a href="mailto:rajvaidyarohit25@outlook.com">rajvaidyarohit25@outlook.com</a></dd>
-                    </div>
-                    <div class="property-row">
-                        <dt>Phone</dt>
-                        <dd><a href="tel:+918275342635">+91 8275342635</a></dd>
-                    </div>
-                    <div class="property-row">
-                        <dt>Profiles</dt>
-                        <a href="https://github.com/RohitRajvaidya5">GitHub</a>
-                        <a href="https://www.linkedin.com/in/rohit-rajvaidya/">LinkedIn</a>
-                    </div>
-                </dl>
-            </section>
-        </div>
-
-        <footer class="page-footer">© <span id="year"></span> Rohit Sushil Rajvaidya</footer>
-    </main>
-</body>
-
+      </main>
+      <footer class="footer">
+        <span>&copy; <span data-year>2026</span> Rohit Rajvaidya</span
+        ><a href="#main">Back to top &uarr;</a>
+      </footer>
+    </div>
+  </body>
 </html>

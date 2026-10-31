@@ -1,0 +1,10 @@
+{
+  "name": "rohit-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free static portfolio and engineering notebook.",
+  "scripts": {
+    "check": "node --check script.js",
+    "test": "node --test .tsupgrader/runtime-validation/portfolio.test.cjs"
+  }
+}

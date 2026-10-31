@@ -1,0 +1,7 @@
+# Local validation and generated tooling artifacts
+.tsupgrader/
+package-lock.json
+
+# Common local noise
+.DS_Store
+*.log
